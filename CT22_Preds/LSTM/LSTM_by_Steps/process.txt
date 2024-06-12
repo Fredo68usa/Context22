@@ -1,0 +1,25 @@
+32:    def __init__(self, param_jason):
+54:    def getTS(self):
+66:    def split_dataset(self,data):
+75:    def evaluate_forecasts(self,actual, predicted):
+94:    def summarize_scores(self,name, score, scores):
+100:    def to_supervised(self,train, n_input, n_out=0):
+120:    def build_model(self,train, n_input):
+141:    def forecast(self,model, history, n_input):
+156:    def evaluate_model(self,train, test, n_input):
+
+
+
+1 - getTS(self)
+
+2 - split_dataset(self,data)
+
+3 - n_input = 14
+    evaluate_model(train, test, n_input)
+
+3.1 - build_model(train, n_input)
+3.1.1 - to_supervised(train, n_input)
+3.2 - forecast(model, history, n_input)
+3.3 - evaluate_forecasts(test[:, :, 0], predictions)
+
+

@@ -1,0 +1,8 @@
+{
+"path": "./",
+"pathProcessed" :"Processed/",
+"ESServer" : "http://localhost:9200",
+"ESUser" : "elastic",
+"ESIndex" : "power_consumption_days",
+"ESPwd" : "6ycdFAhDBE2QbcRfPxQV"
+}

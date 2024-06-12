@@ -1,0 +1,10 @@
+Expected result
+===============
+lstm: [525.309] 431.4, 418.8, 446.6, 563.5, 467.3, 489.7, 771.4
+
+
+MultiVariate
+
+UniVariate
+
+

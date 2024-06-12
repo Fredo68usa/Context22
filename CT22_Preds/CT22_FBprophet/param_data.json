@@ -1,0 +1,12 @@
+{
+"ExcessiveExtractionCheck": false ,
+"ecsCompatibility": true ,
+"path": "/home/context22/Context22/CT22_DAM_Data/Torch/Staps/ToBeProcessed/",
+"pathProcessed": "/home/context22/Context22/CT22_DAM_Data/Torch/Staps/Processed/",
+"confidentialityPolicyRule" : "Policy Rule 1",
+"ESServer" : "http://localhost:9200",
+"ESUser" : "elastic",
+"ESPwd" : "6ycdFAhDBE2QbcRfPxQV",
+"sqlite" : "../../CT22_Common/sqlite/sqlitect22",
+"index" : "ct22-enrich_staps"
+}

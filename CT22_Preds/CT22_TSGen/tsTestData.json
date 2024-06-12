@@ -1,0 +1,109 @@
+POST /ts_ready_3/_doc
+{
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 13,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 100000,
+          "Timestamp Local Time" : "2022-01-13T00:00:00.000Z"
+        }
+POST /ts_ready_3/_doc
+      {
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 34,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 900000,
+          "Timestamp Local Time" : "2022-02-03T00:00:00.000Z"
+        }
+POST /ts_ready_3/_doc
+      {
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 20,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 200000,
+          "Timestamp Local Time" : "2022-01-20T00:00:00.000Z"
+        }
+POST /ts_ready_3/_doc
+      {
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 27,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 300000,
+          "Timestamp Local Time" : "2022-01-27T00:00:00.000Z"
+        }
+POST /ts_ready_3/_doc
+      {
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 41,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 400000,
+          "Timestamp Local Time" : "2022-02-10T00:00:00.000Z"
+        }
+POST /ts_ready_3/_doc
+      {
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 48,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 500000,
+          "Timestamp Local Time" : "2022-02-17T00:00:00.000Z"
+        }
+POST /ts_ready_3/_doc
+      {
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 55,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 600000,
+          "Timestamp Local Time" : "2022-02-24T00:00:00.000Z"
+        }
+POST /ts_ready_3/_doc
+      {
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 62,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 700000,
+          "Timestamp Local Time" : "2022-03-03T00:00:00.000Z"
+        }
+POST /ts_ready_3/_doc
+      {
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 69,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 800000,
+          "Timestamp Local Time" : "2022-03-10T00:00:00.000Z"
+      }
+POST /ts_ready_3/_doc
+      {
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 76,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 1000000,
+          "Timestamp Local Time" : "2022-03-17T00:00:00.000Z"
+      }
+POST /ts_ready_3/_doc
+      {
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 83,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 1100000,
+          "Timestamp Local Time" : "2022-03-24T00:00:00.000Z"
+      }
+POST /ts_ready_3/_doc
+      {
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 90,
+          "DayOfWeek" : "Thursday",
+          "Records Affected" : 1200000,
+          "Timestamp Local Time" : "2022-03-31T00:00:00.000Z"
+      }
+

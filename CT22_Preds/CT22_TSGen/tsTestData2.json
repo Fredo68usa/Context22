@@ -1,0 +1,19 @@
+POST /ts_ready_tmp/_doc
+{
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 13,
+          "DayOfWeek" : "Thursday",
+          "Records Training" : 35520672,
+          "Timestamp" : "2023-01-13T00:00:00.000Z"
+        }
+POST /ts_ready_tmp/_doc
+{
+          "HashHash" : "968c3ede97d8466333059c677f187f88",
+          "Year" : 2022,
+          "DayOfYear" : 13,
+          "DayOfWeek" : "Thursday",
+          "Records Testing" : 39920672,
+          "Timestamp" : "2023-02-13T00:00:00.000Z"
+        }
+

@@ -1,0 +1,206 @@
+GET _search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+POST /enriched_full_sql/_delete_by_query?pretty
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+POST /enriched_full_sql/_search?size=0
+{
+  "aggs": {
+    "range": {
+      "date_range": {
+        "field": "Timestamp",
+        "format": "yyyy-MM-dd",
+        "ranges": [
+          { "to": "now-50M/M" },  
+          { "from": "now-50M/M" } 
+        ]
+      }
+    }
+  }
+}
+
+GET /enriched_full_sql/_search
+{
+  "aggs": {
+    "genres_and_products": {
+      "multi_terms": {
+        "terms": [{
+          "field": "Records Affected" 
+        }, {
+          "field": "Response Time"
+        }]
+      }
+    }
+  }
+}
+POST /ts_ready_2/_delete_by_query?pretty
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+GET /ts_ready_2/_search?pretty
+{
+  "query" : { 
+    "match_all": {}
+  }
+}
+
+GET /ts_ready_2/_search?pretty
+{   
+  "query" : {
+    "bool" : { "must" : 
+    [ 
+      { "match" : { "HashHash" : "968c3ede97d8466333059c677f187f88"}},
+      { "match" : { "DayOfWeek" : "Thursday"}}
+    ]
+      
+    }
+      
+    }
+  }
+} 
+# ----------------------
+curl -X POST "localhost:9200/index_name/_doc" -H 'Content-Type: application/json' -d '{"field1": "value1", "field2": "value2"}'
+curl -X POST "localhost:9200/ts_ready_2/_doc" -H 'Content-Type: application/json' -d '{
+
+  "HashHash" : "968c3ede97d8466333059c677f187f88",
+  "Year" : 2022,
+  "DayOfYear" : 20,
+  "DayOfWeek" : "Thursday",
+  "Records Affected" : 20672,
+  "Timestamp Local Time" : "2022-01-20T00:00:00.000Z"
+
+}'
+
+
+POST /ts_ready_3/_doc
+{
+  "HashHash" : "968c3ede97d8466333059c677f187f88",
+  "DayOfYear" : 20,
+  "Timestamp Local Time" : "2022-01-20T00:00:00.000Z"
+}
+
+POST /ts_ready_2/_doc
+{
+  "HashHash" : "968c3ede97d8466333059c677f187f88",
+  "Year" : 2022,
+  "DayOfYear" : 20,
+  "DayOfWeek" : "Thursday",
+  "Records Affected" : 20672,
+  "Timestamp Local Time" : "2022-01-20T00:00:00.000Z"
+}
+
+GET _search
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+POST /enriched_full_sql/_delete_by_query?pretty
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+POST /ts_ready_3/_delete_by_query?pretty
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+POST /enriched_full_sql/_search?size=0
+{
+  "aggs": {
+    "range": {
+      "date_range": {
+        "field": "Timestamp",
+        "format": "yyyy-MM-dd",
+        "ranges": [
+          { "to": "now-50M/M" },  
+          { "from": "now-50M/M" } 
+        ]
+      }
+    }
+  }
+}
+
+GET /enriched_full_sql/_search
+{
+  "aggs": {
+    "genres_and_products": {
+      "multi_terms": {
+        "terms": [{
+          "field": "Records Affected" 
+        }, {
+          "field": "Response Time"
+        }]
+      }
+    }
+  }
+}
+POST /ts_ready_2/_delete_by_query?pretty
+{
+  "query": {
+    "match_all": {}
+  }
+}
+
+GET /ts_ready_2/_search?pretty
+{   
+  "query" : {
+    "bool" : { "must" : 
+    [ 
+      { "match" : { "HashHash" : "968c3ede97d8466333059c677f187f88"}},
+      { "match" : { "DayOfWeek" : "Thursday"}}
+    ]
+      
+    }
+      
+    }
+  }
+} 
+
+GET /ts_ready_2/_search?pretty
+{
+  "query" : { 
+    "match": { "_id" : "p9ql1oYBGHxABXnR43qR" }
+  }
+}
+
+POST /ts_ready_2/_delete_by_query?pretty
+{
+  "query": {
+      "match": { "_id" : "p9ql1oYBGHxABXnR43qR" }
+  }
+}
+
+POST /ts_ready_3/_doc
+{
+  "HashHash" : "968c3ede97d8466333059c677f187f88",
+  "DayOfYear" : 20,
+  "Timestamp Local Time" : "2022-01-20T00:00:00.000Z"
+}
+
+POST /ts_ready_2/_doc
+{
+  "HashHash" : "968c3ede97d8466333059c677f187f88",
+  "Year" : 2022,
+  "DayOfYear" : 34,
+  "DayOfWeek" : "Thursday",
+  "Records Affected" : 2000672,
+  "Timestamp Local Time" : "2022-02-03T00:00:00.000Z"
+}

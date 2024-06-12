@@ -1,0 +1,8 @@
+{
+"ESServer" : "http://localhost:9200",
+"ESUser" : "elastic",
+"ESPwd" : "6ycdFAhDBE2QbcRfPxQV",
+"hash" : "968c3ede97d8466333059c677f187f88",
+"ESInIndex" : "enriched_full_sql_test_2",
+"ESOutIndex" : "timeseries-"
+}

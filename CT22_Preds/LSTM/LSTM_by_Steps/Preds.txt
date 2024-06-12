@@ -1,0 +1,7 @@
+{'Pred': array([1809.2731], dtype=float32), 'score': 529.8379542354057, 'Min': array([1279.435], dtype=float32), 'Max': array([2339.111], dtype=float32)}, 
+{'Pred': array([1876.0337], dtype=float32), 'score': 611.7426570091337, 'Min': array([1264.291], dtype=float32), 'Max': array([2487.7764], dtype=float32)}, 
+{'Pred': array([1879.9894], dtype=float32), 'score': 597.8012788134287, 'Min': array([1282.1881], dtype=float32), 'Max': array([2477.7905], dtype=float32)}, 
+{'Pred': array([1845.151], dtype=float32), 'score': 581.8913016352354, 'Min': array([1263.2598], dtype=float32), 'Max': array([2427.0422], dtype=float32)}, 
+{'Pred': array([1807.7106], dtype=float32), 'score': 568.5475548528586, 'Min': array([1239.1631], dtype=float32), 'Max': array([2376.258], dtype=float32)}, 
+{'Pred': array([1846.4811], dtype=float32), 'score': 552.2602089556399, 'Min': array([1294.221], dtype=float32), 'Max': array([2398.7412], dtype=float32)}, 
+{'Pred': array([1831.7399], dtype=float32), 'score': 603.7159690044225, 'Min': array([1228.0239], dtype=float32), 'Max': array([2435.4558], dtype=float32)}

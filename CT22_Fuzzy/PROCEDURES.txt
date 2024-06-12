@@ -1,0 +1,7 @@
+[context22@unknown2cea7fdb17c5 CT22_EKP_Fuzzy]$ psql -f sqlsAdd2.sql 
+INSERT 0 1
+[context22@unknown2cea7fdb17c5 CT22_EKP_Fuzzy]$
+
+
+Main.py seems to be the current one and Main2.py seems to be a further development to be tested
+This is in fact to manage multi-threading

@@ -1,0 +1,15 @@
+{
+"ESServer" : "http://localhost:9200",
+"ESUser" : "elastic",
+"ESPwd" : "6ycdFAhDBE2QbcRfPxQV",
+"SQLHash" : "968c3ede97d8466333059c677f187f88",
+"DayOfWeek" : "Wednesday",
+"SeasonalPeriod" : 5,
+"IndexFreq" : "C",
+"Alpha" : 1,
+"Train" : 0.8,
+"Forecast" : 1,
+"ESTZ" : "-5",
+"ESInIndex" : "ts_ready_3",
+"ESOutIndex" : "preds_ts_lstm"
+}

@@ -1,0 +1,6 @@
+aws s3 sync s3://<bucket-name> <local-folder-path> --exclude "*" --include "<object-key1>" --include "<object-key2>" --include "<object-key3>" --include "<object-key4>"
+
+aws s3 sync s3://<bucket-name> <local-folder-path> 
+
+
+aws s3 sync s3://aws-cloudtrail-logs-382772736224-da326c32 AWSLogs/382772736224/CloudTrail/us-east-2/2024/05/29/
