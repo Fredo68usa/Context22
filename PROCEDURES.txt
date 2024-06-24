@@ -1,0 +1,6 @@
+  467  cd gpt-3/
+  468  pip install openai
+  469  pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+  470  pip install transformers datasets
+  471  vi PROCEDURES.txt
+
